@@ -49,7 +49,7 @@ At the end of the installation run the StackBuilder, select the local PostgreSQL
 2.2) Create a database
 
 After installation open the psql shell to connet to the local database server to:
-- create a new user and new database, 
+- create a new user and new database 
 - add the postgis extension to the new database
 - add a new schema 
 - create a table for the bookmarks
@@ -107,7 +107,7 @@ NOTE: Start secondary.py to run a similar program that uses matplotlib instead o
 Follow the instructions on screen. The program will download a zipped shafile, unzip it, check the shapefile, check and change the coordinate system,
 upload the shapefile to a new postgresql table, add geometry to the table. Running the program again will skip the download and will use the existing table.
 The program will let the user download a screenshot of the webpage and insert points in WGS84 latitude/longitude format. Points outside USA will be discarded.
-The size of the points will depend on the number of decimal digits, if latitude and longitude have a different number of digit the program will use the biggest number.
+The size of the points will depend on the number of decimal digits, if latitude and longitude have a different number of digits the program will use the biggest number.
 Users can type showall to show all the points stored in the database. Users can click on the point to show the label.
 
 6) Deleting the virtual environment
