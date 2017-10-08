@@ -28,8 +28,7 @@ Initialize a virtual environment with
 
 > py -3.5 -m venv myenv
 
-This will create the "myenv" folder. Put all the libraries plus the file librariesVenv.bat from the "installation" folder inside  "myenv/Scripts", then
-doubleclick librariesVIRTUAL.bat to install them 
+This will create the "myenv" folder. Put all the libraries plus the file librariesVIRTUAL.bat from the "installation" folder inside  "myenv/Scripts", then doubleclick librariesVIRTUAL.bat to install them 
 
 copy and past the "program" folder into the "myenv" folder
 
