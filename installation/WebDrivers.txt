@@ -1,0 +1,8 @@
+WebDrivers links  
+
+https://chromedriver.storage.googleapis.com/2.33/chromedriver_win32.zip
+
+https://download.microsoft.com/download/3/4/2/342316D7-EBE0-4F10-ABA2-AE8E0CDF36DD/MicrosoftWebDriver.exe
+
+https://github.com/mozilla/geckodriver/releases/download/v0.19.0/geckodriver-v0.19.0-win64.zip
+
