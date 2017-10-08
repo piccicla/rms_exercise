@@ -1,4 +1,4 @@
-Windows 64 bits installation instractions
+Windows 64 bits installation instructions
 
 1)Python and libraries
 
