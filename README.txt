@@ -15,10 +15,10 @@ Many binaries depend on Visual C++ 2015, install it before installing python lib
 https://www.microsoft.com/en-us/download/details.aspx?id=53587
 
 
-1.1) global installation
+1.1) for a global installation 
 Put the downloaded libraries inside the "installation" folder and doubleclick librariesGLOBAL.bat to install/update them
 
-1.2) use a virtual environment
+1.2) for an installation in a virtual environment (RECOMMENDED)
 
 create a folder anywhere, open a PowerShell window (or a Windows Command Line) and change the current directory to the new folder
 
