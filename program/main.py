@@ -587,8 +587,8 @@ def get_geojson():
         cur.execute(    """SELECT row_to_json(fc) FROM 
                           ( SELECT 'FeatureCollection' As type, array_to_json(array_agg(f)) As features
                           FROM (SELECT 'Feature' As type , ST_AsGeoJSON(lg.geom)::json As geometry, row_to_json(lp) As properties
-                           FROM exercise.states As lg  INNER JOIN (SELECT gid,name FROM exercise.states) As lp
-                               ON lg.gid = lp.gid ) As f)  As fc;""", (AsIs(settings.STATES_TABLE_NAME)))
+                           FROM %s As lg  INNER JOIN (SELECT gid,name FROM %s) As lp
+                               ON lg.gid = lp.gid ) As f)  As fc;""", (AsIs(settings.STATES_TABLE_NAME),AsIs(settings.STATES_TABLE_NAME)))
         result = cur.fetchone()[0]
 
         #print(result)
